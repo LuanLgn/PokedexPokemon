@@ -14,16 +14,40 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- Icons -->
     <script src="https://kit.fontawesome.com/101b04dc04.js" crossorigin="anonymous"></script>
-    <link rel="icon" href="assets/favicon/favicon-16x16.png">
+    <link rel="icon" href="/assets/favicons/apple-touch-icon-180x180.png">
     
     <title>Pokédex</title>
 </head>
 <body>
     
+    <!-- Inicio conteudo da Pokédex -->
     <div class="main container mt-5 ">
-        <img src="/assets/img/gengar gif.gif" sizes="16x16" alt="pokemon" class="pokemon_image">
+        <!-- Inicio imagem de Pokemon na Pokédex -->
+        <img src="/assets/img/gengar gif.gif" sizes="16x16" alt="pokemon" class="pokemon-image">
+
+        <!-- Inicio informações do Pokemon na Pokédex -->
+        <h1 class="pokemon-data">
+            <span class="pokemon-number">1</span> -
+            <span class="pokemon-name">gengar</span>
+        </h1>
+        <!-- Fim informações do Pokemon na Pokédex -->
+
+        <!-- Fim imagem de Pokemon na Pokédex -->
+
+        <!-- Inicio Form de pesquisa do Pokemon na Pokédex -->
+        <form class="form">
+            <input type="search" class="input-search" placeholder="Name or Number" required>
+        </form>
+
+        <div class="buttons">
+            <button class="button btn-prev">Prev &lt;</button>
+            <button class="button btn-next">Next &gt;</button>
+        </div>
+        <!-- Fim Form de pesquisa do Pokemon na Pokédex -->
+
         <img src="/assets/img/pokedex.png" alt="pokédex" class="pokedex">
     </div>
+    <!-- Fim conteudo da Pokédex -->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
