@@ -53,6 +53,7 @@ Observações:
 
 - Certifique-se de ter uma conexão de internet ativa para que a aplicação possa acessar a API PokeAPI e buscar os dados dos Pokémon.
 - Caso ocorram erros ou problemas com o carregamento dos recursos, verifique a estrutura de diretórios e os caminhos dos arquivos para garantir que estejam configurados corretamente.
+- Executem pelo visual studio code, usando a extensão Live Server, para que possa desfrutar da experiência completa.
 
 ## Considerações Finais
 
